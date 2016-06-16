@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 namespace ObserverPattern {
   class Program {
     static void Main(string[] args) {
+
       DepartmentStore departmentStore = new DepartmentStore();
+
       Shopper shopper1 = new Shopper("John");
       Shopper shopper2 = new Shopper("Mike");
       Shopper shopper3 = new Shopper("Joe");
